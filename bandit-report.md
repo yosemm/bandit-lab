@@ -52,3 +52,18 @@ Se uso ls -a para ver si habia un archivo escondido y lo lei con cat "" para enc
 El desafio es que el archivo estaba escondido.
 #### Contrasena obtenida:
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+## Bandit Level 4->5
+**Comandos utilizados:**
+```bash
+ls -a
+find ./inhere -type f -exec grep -E "[a-z]" {} \;
+```
+
+#### Explicacion: 
+Use ls -a y vi que habia un folder llamado inhere. Luego revise este folder y vi que habian varios subfolders.
+Decia que la password estaba en el unico archivo legible por humanos, entonces supuse que usando find, podia encontrar una cadena de texto entre todos los subfolders. Y cabal, encontre una cadena de texto y es la password.
+#### Contrasena obtenida:
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+
