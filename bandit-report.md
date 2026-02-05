@@ -95,3 +95,13 @@ Siguiendo la pista, use user, size y group para filtrar los resultados. Encontre
 #### Contrasena obtenida:
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
+## Bandit Level 7->8
+**Comandos utilizados:**
+```bash
+ls -a
+grep '^millionth' data.txt
+```
+#### Explicacion:
+La pista decia que el password estaba despues de la palabra millionth, entonces con grep utilice ^ para encontrar la linea que empezara con esta palabra.
+#### Contrasena obtenida:
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
