@@ -81,3 +81,17 @@ Vi que habia un folder llamado inhere, y nuevamente el folder estaba lleno de su
 Entonces con find busque archivos que no fueran ejecutables y cumplieran con el tamano y encontre el adecuado.
 #### Contrasena obtenida:
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+## Bandit Level 6->7
+**Comandos utilizados:**
+```bash
+ls -a
+find / -user bandit7 -group bandit6 -size 33c
+cat /var/lib/dpkg/info/bandit7.password
+```
+#### Explicacion:
+Vi que habian varios folders en el directorio actual, pero al usar find no encontre resultados. Entonces busque desde la raiz.
+Siguiendo la pista, use user, size y group para filtrar los resultados. Encontre varios archivos que no tenia permiso para ver, pero uno de ellos si asi que lo lei y encontre la password.
+#### Contrasena obtenida:
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
