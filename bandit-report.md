@@ -67,3 +67,17 @@ Decia que la password estaba en el unico archivo legible por humanos, entonces s
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 
+## Bandit Level 5->6
+**Comandos utilizados:**
+```bash
+ls
+man find
+find ./inhere -type f ! -executable -size 1033c
+cat ./inhere/maybehere07/.file2
+```
+
+#### Explicacion:
+Vi que habia un folder llamado inhere, y nuevamente el folder estaba lleno de subfolders. Pero, la pista mencionaba que tenia 1033 bytes de tamano y no era ejecutable.
+Entonces con find busque archivos que no fueran ejecutables y cumplieran con el tamano y encontre el adecuado.
+#### Contrasena obtenida:
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
