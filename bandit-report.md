@@ -130,3 +130,14 @@ La pista decia de que era una cadena de texto legible por humanos, y que tenia '
 Strings justo filtra el texto que es legible y luego con grep encontre las lineas que tenian '=' al inicio. 
 #### Contrasena obtenida:
 FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+## Bandit Level 10->11
+**Comandos utilizados:**
+```bash
+ls
+base64 -d data.txt
+```
+#### Explicacion:
+La pista decia que el texto estaba en base64, y el comando base64 tiene la opcion para decodificar entonces solo le pase el archivo.
+#### Contrasena obtenida:
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
