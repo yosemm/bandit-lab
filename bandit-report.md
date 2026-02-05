@@ -22,7 +22,8 @@ cat ./
 ```
 
 #### Explicacion:
-Se uso ls para ver si habia un README y lo lei con cat ./- para encontrar la password. El desafio es que el nombre era un guion. 
+Se uso ls para ver si habia un archivo y lo lei con cat ./- para encontrar la password. 
+El desafio es que el nombre era un guion. 
 #### Contrasena obtenida:
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
@@ -34,8 +35,20 @@ cat "./--spaces in this filename--"
 ```
 
 #### Explicacion:
-Se uso ls para ver si habia un README y lo lei con cat "" para encontrar la password. 
+Se uso ls para ver si habia un archivo y lo lei con cat "" para encontrar la password. 
 El desafio es que habia espacios en el nombre del archivo.
 #### Contrasena obtenida:
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
+## Bandit Level 3->4
+**Comandos utilizados:**
+```bash
+ls -a
+cat "./...Hiding-From-You"
+```
+
+#### Explicacion:
+Se uso ls -a para ver si habia un archivo escondido y lo lei con cat "" para encontrar la password. 
+El desafio es que el archivo estaba escondido.
+#### Contrasena obtenida:
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
