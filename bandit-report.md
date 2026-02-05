@@ -105,3 +105,16 @@ grep '^millionth' data.txt
 La pista decia que el password estaba despues de la palabra millionth, entonces con grep utilice ^ para encontrar la linea que empezara con esta palabra.
 #### Contrasena obtenida:
 dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+## Bandit Level 8->9
+**Comandos utilizados:**
+```bash
+ls -a
+sort data.txt | uniq -u
+```
+#### Explicacion:
+La pista decia que era la unica linea de texto que aparecia exactamente una vez en todo el archivo.
+Vi que uniq es la herramienta perfecta para esto, pero que solo revisa lineas adyacentes, asi que de primero habia que ordenar alfabeticamente para que las lineas repetidas estuvieran una detras de la otra.
+Asi uniq funciono, y me dio la password.
+#### Contrasena obtenida:
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
