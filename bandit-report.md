@@ -118,3 +118,15 @@ Vi que uniq es la herramienta perfecta para esto, pero que solo revisa lineas ad
 Asi uniq funciono, y me dio la password.
 #### Contrasena obtenida:
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+## Bandit Level 9->10
+**Comandos utilizados:**
+```bash
+ls
+strings data.txt | grep '^='
+```
+#### Explicacion:
+La pista decia de que era una cadena de texto legible por humanos, y que tenia '=' al inicio. 
+Strings justo filtra el texto que es legible y luego con grep encontre las lineas que tenian '=' al inicio. 
+#### Contrasena obtenida:
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
